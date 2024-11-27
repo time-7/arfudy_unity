@@ -336,7 +336,7 @@ body { padding: 0; margin: 0; overflow: hidden; }
             if (Directory.Exists(path))
                 Directory.Delete(path, true);
 
-            EditorUserBuildSettings.iOSBuildConfigType = iOSBuildType.Release;
+            EditorUserBuildSettings.iOSXcodeBuildConfig = XcodeBuildConfig.Release;
 
             var playerOptions = new BuildPlayerOptions
             {
